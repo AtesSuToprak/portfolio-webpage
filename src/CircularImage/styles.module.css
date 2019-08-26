@@ -1,0 +1,18 @@
+.circleImage {
+  position: absolute;
+  margin: 0;
+  top: 250px;
+  padding-left: 50%;
+}
+figure {
+}
+.image_bg {
+  width: 300px;
+  transform: scaleX(-1);
+  border-radius: 50%;
+  border: 10px rgb(175, 175, 175) solid;
+  box-shadow: 0px 0px 10px rgb(31, 31, 31);
+}
+.image_bg:hover {
+  opacity: 0.5;
+}
