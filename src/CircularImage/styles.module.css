@@ -1,18 +1,45 @@
 .circleImage {
   position: absolute;
-  margin: 0;
+  right: 250px;
   top: 250px;
-  padding-left: 50%;
+  border-radius: 50%;
 }
-figure {
+
+.circleImage:hover {
+  animation: ImagePosition 2s ease normal;
+  animation-delay: 0.02s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+}
+.image_bg:hover {
+  animation: myImage 2s ease normal;
+  animation-delay: 0.02s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
 }
 .image_bg {
   width: 300px;
   transform: scaleX(-1);
   border-radius: 50%;
   border: 10px rgb(175, 175, 175) solid;
-  box-shadow: 0px 0px 10px rgb(31, 31, 31);
+  box-shadow: 1px 1px 10px rgb(31, 31, 31);
 }
-.image_bg:hover {
-  opacity: 0.5;
+
+@keyframes myImage {
+  from {
+    width: 300px;
+    opacity: 1;
+  }
+  to {
+    width: 750px;
+    opacity: 0.5;
+  }
+}
+
+@keyframes ImagePosition {
+  from {
+  }
+  to {
+    right: 350px;
+  }
 }
