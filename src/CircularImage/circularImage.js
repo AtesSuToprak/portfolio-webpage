@@ -5,13 +5,12 @@ class CircularImage extends React.Component {
   render() {
     return (
       <div className={styles.circleImage}>
-        <figure>
-          <img
-            className={styles.image_bg}
-            src={require("./image/hakan.jpg")}
-            alt="Hakan Yildiz"
-          />
-        </figure>
+        <img
+          className={styles.image_bg}
+          src={require("./image/hakan.jpg")}
+          alt="Hakan Yildiz"
+        />
+        <div className={styles.innerDiv}></div>
       </div>
     );
   }
