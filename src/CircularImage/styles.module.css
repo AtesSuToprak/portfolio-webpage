@@ -3,43 +3,21 @@
   right: 250px;
   top: 250px;
   border-radius: 50%;
+  transition: 1s;
+}
+.circleImage:hover {
+  right: 350px;
 }
 
-.circleImage:hover {
-  animation: ImagePosition 2s ease normal;
-  animation-delay: 0.02s;
-  animation-fill-mode: both;
-  animation-direction: alternate;
-}
-.image_bg:hover {
-  animation: myImage 2s ease normal;
-  animation-delay: 0.02s;
-  animation-fill-mode: both;
-  animation-direction: alternate;
-}
 .image_bg {
   width: 300px;
   transform: scaleX(-1);
   border-radius: 50%;
   border: 10px rgb(175, 175, 175) solid;
   box-shadow: 1px 1px 10px rgb(31, 31, 31);
+  transition: 1s;
 }
-
-@keyframes myImage {
-  from {
-    width: 300px;
-    opacity: 1;
-  }
-  to {
-    width: 750px;
-    opacity: 0.5;
-  }
-}
-
-@keyframes ImagePosition {
-  from {
-  }
-  to {
-    right: 350px;
-  }
+.image_bg:hover {
+  width: 750px;
+  opacity: 0.5;
 }
