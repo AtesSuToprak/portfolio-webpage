@@ -38,11 +38,7 @@ class CircularImage extends React.Component {
               kind of coding!
             </p>
             <br />
-            <a
-              className={styles.email}
-              href="mailto:hakanyildiz248@gmail.com"
-              target="_blank"
-            >
+            <a className={styles.email} href="mailto:hakanyildiz248@gmail.com">
               HIT ME UP!
             </a>
           </div>
