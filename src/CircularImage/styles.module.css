@@ -1,99 +1,66 @@
+/*Bu kısım benim elle girdiğim kısım*/
 .circleImage {
   position: absolute;
   right: 250px;
   top: 250px;
-  border-radius: 50%;
+  border-radius: 100%;
   transition: 1s;
 }
+/*Bu kısım benim elle girdiğim kısım*/
 .circleImage:hover {
   right: 400px;
   top: 210px;
 }
-.circleImage:before {
-  position: absolute;
-  top: 10px;
-  bottom: 10px;
-  left: 10px;
-  right: 10px;
-  top: 100%;
-  content: "";
-  background-color: rgba(51, 51, 51, 0.9);
-  -webkit-transition: all 0.25s ease;
-  transition: all 0.25s ease;
-  -webkit-transition-delay: 0.25s;
-  transition-delay: 0.25s;
+.circleImage:hover .image_bg {
+  width: 600px;
+  opacity: 0.3;
 }
-.circleImage img {
-  vertical-align: top;
-  max-width: 100%;
-  backface-visibility: hidden;
-}
-.circleImage figcaption {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  text-align: justify;
-}
-.circleImage h3,
-.circleImage h5 {
-  opacity: 0;
-  letter-spacing: 1px;
-}
-.circleImage h3 {
-  -webkit-transform: translateY(-100%);
-  transform: translateY(-100%);
-  text-transform: uppercase;
-  font-weight: 400;
-  -webkit-transition-delay: 0.05s;
-  transition-delay: 1.05s;
-}
-.circleImage h5 {
-  font-weight: normal;
-  background-color: #ae895d;
-  padding: 3px 10px;
-  -webkit-transform: translateY(-100%);
-  transform: translateY(-100%);
-  -webkit-transition-delay: 0s;
-  transition-delay: 1s;
-}
-
-.circleImage:hover:before,
-.circleImage.hover:before {
-  top: 10px;
-  -webkit-transition-delay: 0s;
-  transition-delay: 1s;
-  border-radius: 50%;
-}
-.circleImage:hover h3,
-.circleImage.hover h3,
-.circleImage:hover h5,
-.circleImage.hover h5 {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
-  opacity: 1;
-}
-.circleImage:hover h3,
-.circleImage.hover h3 {
-  -webkit-transition-delay: 0.3s;
-  transition-delay: 0.3s;
-}
-.circleImage:hover h5,
-.circleImage.hover h5 {
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-}
+/*Bu kısım benim elle girdiğim kısım*/
 .image_bg {
   width: 300px;
+  opacity: 1;
+  display: block; /*w3schools'dan aldığım taktik!*/
   transform: scaleX(-1);
   border-radius: 50%;
   border: 10px rgb(175, 175, 175) solid;
   box-shadow: 1px 1px 10px rgb(31, 31, 31);
   transition: 1s;
 }
-.image_bg:hover {
-  width: 600px;
-  opacity: 0.4;
+.middle {
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 50%;
+}
+/*Bu kısım benim elle girdiğim kısım*/
+.circleImage:hover .middle {
+  transition: 1s;
+  opacity: 1;
+  transition-delay: 0.5s;
+  top: 50%;
+}
+
+.text {
+  background-color: rgba(32, 32, 32, 0.8);
+  color: white;
+  font-size: 16px;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.circleImage:hover .text {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+.email {
+  text-decoration: underline;
+  color: white;
 }
