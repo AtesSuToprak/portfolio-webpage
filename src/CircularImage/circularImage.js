@@ -19,8 +19,9 @@ class CircularImage extends React.Component {
             </p>
             <p>
               This guy "NEVER,EVER" wanted to be an "Engineer" who would work in
-              a factory.But the family issues did not let him choose any other
-              departments for his own future.
+              a factory. But the family issues did not let him choose any other
+              departments for his own future. And I actually worked as an
+              Engineer for two years.
             </p>
             <p>
               Recently, I have found Re:coded company online and joined the team
@@ -39,7 +40,7 @@ class CircularImage extends React.Component {
             </p>
             <br />
             <a className={styles.email} href="mailto:hakanyildiz248@gmail.com">
-              HIT ME UP!
+              EMAIL ME!
             </a>
           </div>
         </div>

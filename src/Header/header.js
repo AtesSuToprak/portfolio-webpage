@@ -6,7 +6,7 @@ class Header extends React.Component {
     return (
       <div className={styles.navbar}>
         <div className={styles.navbar_bg}></div>
-        <h1>Welcome To My Portfolio Webpage!</h1>
+        <h1>Welcome!</h1>
       </div>
     );
   }
