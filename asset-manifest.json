@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio-webpage/static/css/main.9aaa0e56.chunk.css",
+    "main.js": "/portfolio-webpage/static/js/main.f862a97e.chunk.js",
+    "main.js.map": "/portfolio-webpage/static/js/main.f862a97e.chunk.js.map",
+    "runtime~main.js": "/portfolio-webpage/static/js/runtime~main.1722b710.js",
+    "runtime~main.js.map": "/portfolio-webpage/static/js/runtime~main.1722b710.js.map",
+    "static/js/2.9a5e0ff4.chunk.js": "/portfolio-webpage/static/js/2.9a5e0ff4.chunk.js",
+    "static/js/2.9a5e0ff4.chunk.js.map": "/portfolio-webpage/static/js/2.9a5e0ff4.chunk.js.map",
+    "index.html": "/portfolio-webpage/index.html",
+    "precache-manifest.b0e7bab23a21c5338ce8eeeb07e5c8b7.js": "/portfolio-webpage/precache-manifest.b0e7bab23a21c5338ce8eeeb07e5c8b7.js",
+    "service-worker.js": "/portfolio-webpage/service-worker.js",
+    "static/css/main.9aaa0e56.chunk.css.map": "/portfolio-webpage/static/css/main.9aaa0e56.chunk.css.map",
+    "static/media/hakan.jpg": "/portfolio-webpage/static/media/hakan.2c9a311d.jpg"
+  }
+}
