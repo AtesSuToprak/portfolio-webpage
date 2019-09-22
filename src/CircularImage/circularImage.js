@@ -14,7 +14,7 @@ class CircularImage extends React.Component {
           <div className={styles.text}>
             <h3>Hello!</h3>
             <p>
-              My story here, starts with Food Engineering department in
+              My history starts here with Food Engineering department in
               Turkey,Gaziantep.
             </p>
             <p>
@@ -24,20 +24,20 @@ class CircularImage extends React.Component {
               Engineer for two years.
             </p>
             <p>
-              Recently, I have found Re:coded company online and joined the team
-              for my future for the Front-End Development and UI&UX Designing, I
-              worked hard on it and now I speak outloud with a great honor that,
-              I can work as a developer!
+              Recently, I have found Re:coded company and had a great chance to
+              join the team for my future for the Front-End Development and
+              UI&UX Designing, worked hard on it and now I speak outloud with a
+              great honor that, I am a developer!
             </p>
             <p>
-              My professions are for HTML5, CSS3, JavaScript, React, Firebase,
-              Git, GitHub. (Only for now...)
+              My professions are HTML5, CSS3, JavaScript, React, Firebase, Git,
+              GitHub. (Only for now...)
             </p>
             <p>
               Right now, I am available for different kind of projects, either
-              to help you on your projects and to improve myself on different
-              kind of coding!
+              to help you and to improve myself on different kind of coding!
             </p>
+            <p>So, if you want to Hire Me;</p>
             <br />
             <a className={styles.email} href="mailto:hakanyildiz248@gmail.com">
               EMAIL ME!
